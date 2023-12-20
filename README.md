@@ -25,4 +25,4 @@ Any arbitrary character besides the 8 listed above should be ignored by the comp
 
 All memory blocks on the "array" are set to zero at the beginning of the program. And the memory pointer starts out on the very left most memory block.
 
-Loops may be nested as many times as you want. But all 0 must have a corre- sponding .
+Loops may be nested as many times as you want. But all 0 must have a corresponding .
