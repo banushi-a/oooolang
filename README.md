@@ -1,4 +1,5 @@
-![oooolang](https://github.com/banushi-a/oooolang/assets/89368127/9bcca778-37b1-4411-aaa4-8072e2c0b6b5 = 50x50) # oooolang
+# oooolang ![oooolang](https://github.com/banushi-a/oooolang/assets/89368127/555b1868-9ce1-4794-8365-275751a6b18f)
+
 Esoteric Language Based on Circular Symbols
 
 ## Basics
