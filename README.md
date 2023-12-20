@@ -1,4 +1,4 @@
-# oooolang
+![oooolang](https://github.com/banushi-a/oooolang/assets/89368127/9bcca778-37b1-4411-aaa4-8072e2c0b6b5) # oooolang
 Esoteric Language Based on Circular Symbols
 
 ## Basics
