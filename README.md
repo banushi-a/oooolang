@@ -21,6 +21,8 @@ o = decreases memory pointer, or moves the pointer to the left 1 block.
 
 © = like c putchar(). print 1 character to the console  
 
+To use the compiler, run `main.py` and enter the path to the file containing your oooolang code. 
+
 ## Some rules:
 Any arbitrary character besides the 8 listed above should be ignored by the compiler or interpretor.
 
