@@ -1,4 +1,15 @@
 def atomic_command(char, data, pointer):
+    """
+    Processes an atomic command
+
+    Parameters:
+    char     - A single character representing a command
+    data     - An array representing the tapehead in the computation
+    pointer  - Index on tape that computation is currenntly on
+
+    Returns:
+    The updated index of the pointer
+    """
     if char == 'O':
         return (pointer + 1) % 69_000
     elif char == 'o':
@@ -20,6 +31,14 @@ def atomic_command(char, data, pointer):
     return pointer
 
 def get_loop_contents(string):
+    """
+    Get the contents of a loop given some string of commands
+
+    Parameters:
+    string - A string of commands starting with 0
+    """
+
+    # We use a stack to ensure we  get the corresponding .
     stack = ["0"]
     loop_contents = ""
     for char in string[1:]:
@@ -37,6 +56,16 @@ def get_loop_contents(string):
         
 
 def process_string(string, data, pointer, cond, breakWhenDone):
+    """
+    Process some string of commands
+
+    Parameters:
+    string        - String of commands
+    data          - An array representing the tapehead in the computation
+    pointer       - Index on tape that computation is currenntly on
+    cond          - Conditional function that determines if the code is still running
+    breakWhenDone - Should we break out of the loop after one iteration?
+    """
     loopPointer = pointer
     while cond(loopPointer):
         for i, char in enumerate(string):
